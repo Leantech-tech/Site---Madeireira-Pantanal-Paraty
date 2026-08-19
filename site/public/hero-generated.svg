@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Ilustração de tábuas de madeira empilhadas em frente a uma floresta ao pôr do sol">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6efe3"/>
+      <stop offset="0.5" stop-color="#ecdcc2"/>
+      <stop offset="1" stop-color="#d9aa6d"/>
+    </linearGradient>
+    <linearGradient id="plank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b0804f"/>
+      <stop offset="1" stop-color="#7a5433"/>
+    </linearGradient>
+    <linearGradient id="log" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5f3a"/>
+      <stop offset="1" stop-color="#5c3d26"/>
+    </linearGradient>
+    <linearGradient id="plankLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c89a6a"/>
+      <stop offset="1" stop-color="#a07046"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#sky)"/>
+
+  <circle cx="940" cy="210" r="150" fill="#d4a36b" opacity="0.28"/>
+  <circle cx="940" cy="210" r="95" fill="#c68e50" opacity="0.5"/>
+  <circle cx="940" cy="210" r="72" fill="#e0a869" opacity="0.9"/>
+
+  <path d="M0 560 Q180 470 360 540 T720 510 T1080 540 T1200 520 L1200 800 L0 800 Z" fill="#8f6a44" opacity="0.45"/>
+
+  <path d="M0 680 L40 560 L70 680 L120 540 L160 680 L210 570 L250 680 L300 530 L350 680 L400 560 L440 680 L490 545 L530 680 L580 555 L620 680 L670 535 L720 680 L770 565 L810 680 L860 550 L900 680 L950 560 L990 680 L1040 535 L1080 680 L1130 565 L1170 680 L1200 600 L1200 800 L0 800 Z" fill="#2f4d31"/>
+
+  <rect x="0" y="690" width="1200" height="110" fill="#3d2a1b"/>
+
+  <g>
+    <g>
+      <rect x="340" y="710" width="480" height="44" rx="6" fill="url(#plank)" stroke="#5c3d26" stroke-width="2"/>
+      <rect x="340" y="710" width="480" height="10" rx="5" fill="#c89a6a" opacity="0.55"/>
+      <ellipse cx="812" cy="732" rx="16" ry="20" fill="url(#plankLight)" stroke="#5c3d26" stroke-width="2"/>
+      <ellipse cx="812" cy="732" rx="10" ry="13" fill="none" stroke="#5c3d26" stroke-width="1.5"/>
+      <ellipse cx="812" cy="732" rx="4" ry="6" fill="none" stroke="#5c3d26" stroke-width="1.5"/>
+    </g>
+    <g>
+      <rect x="360" y="668" width="480" height="44" rx="6" fill="url(#plank)" stroke="#5c3d26" stroke-width="2"/>
+      <rect x="360" y="668" width="480" height="10" rx="5" fill="#c89a6a" opacity="0.55"/>
+      <ellipse cx="832" cy="690" rx="16" ry="20" fill="url(#plankLight)" stroke="#5c3d26" stroke-width="2"/>
+      <ellipse cx="832" cy="690" rx="10" ry="13" fill="none" stroke="#5c3d26" stroke-width="1.5"/>
+      <ellipse cx="832" cy="690" rx="4" ry="6" fill="none" stroke="#5c3d26" stroke-width="1.5"/>
+    </g>
+    <g>
+      <rect x="340" y="626" width="480" height="44" rx="6" fill="url(#plank)" stroke="#5c3d26" stroke-width="2"/>
+      <rect x="340" y="626" width="480" height="10" rx="5" fill="#c89a6a" opacity="0.55"/>
+      <ellipse cx="812" cy="648" rx="16" ry="20" fill="url(#plankLight)" stroke="#5c3d26" stroke-width="2"/>
+      <ellipse cx="812" cy="648" rx="10" ry="13" fill="none" stroke="#5c3d26" stroke-width="1.5"/>
+      <ellipse cx="812" cy="648" rx="4" ry="6" fill="none" stroke="#5c3d26" stroke-width="1.5"/>
+    </g>
+    <g>
+      <rect x="360" y="584" width="480" height="44" rx="6" fill="url(#plank)" stroke="#5c3d26" stroke-width="2"/>
+      <rect x="360" y="584" width="480" height="10" rx="5" fill="#c89a6a" opacity="0.55"/>
+      <ellipse cx="832" cy="606" rx="16" ry="20" fill="url(#plankLight)" stroke="#5c3d26" stroke-width="2"/>
+      <ellipse cx="832" cy="606" rx="10" ry="13" fill="none" stroke="#5c3d26" stroke-width="1.5"/>
+      <ellipse cx="832" cy="606" rx="4" ry="6" fill="none" stroke="#5c3d26" stroke-width="1.5"/>
+    </g>
+    <g>
+      <rect x="340" y="542" width="480" height="44" rx="6" fill="url(#plank)" stroke="#5c3d26" stroke-width="2"/>
+      <rect x="340" y="542" width="480" height="10" rx="5" fill="#c89a6a" opacity="0.55"/>
+      <ellipse cx="812" cy="564" rx="16" ry="20" fill="url(#plankLight)" stroke="#5c3d26" stroke-width="2"/>
+      <ellipse cx="812" cy="564" rx="10" ry="13" fill="none" stroke="#5c3d26" stroke-width="1.5"/>
+      <ellipse cx="812" cy="564" rx="4" ry="6" fill="none" stroke="#5c3d26" stroke-width="1.5"/>
+    </g>
+    <g>
+      <rect x="360" y="500" width="480" height="44" rx="6" fill="url(#plank)" stroke="#5c3d26" stroke-width="2"/>
+      <rect x="360" y="500" width="480" height="10" rx="5" fill="#c89a6a" opacity="0.55"/>
+      <ellipse cx="832" cy="522" rx="16" ry="20" fill="url(#plankLight)" stroke="#5c3d26" stroke-width="2"/>
+      <ellipse cx="832" cy="522" rx="10" ry="13" fill="none" stroke="#5c3d26" stroke-width="1.5"/>
+      <ellipse cx="832" cy="522" rx="4" ry="6" fill="none" stroke="#5c3d26" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <g>
+    <g>
+      <rect x="1010" y="580" width="92" height="220" rx="46" fill="#6e4b2f" stroke="#3d2a1b" stroke-width="2"/>
+      <ellipse cx="1056" cy="580" rx="46" ry="20" fill="#8a5f3a" stroke="#3d2a1b" stroke-width="2"/>
+      <ellipse cx="1056" cy="580" rx="32" ry="14" fill="none" stroke="#5c3d26" stroke-width="2"/>
+      <ellipse cx="1056" cy="580" rx="18" ry="8" fill="none" stroke="#5c3d26" stroke-width="2"/>
+    </g>
+    <g>
+      <rect x="880" y="610" width="104" height="190" rx="52" fill="url(#log)" stroke="#3d2a1b" stroke-width="2"/>
+      <path d="M915 620 L912 800" stroke="#4a311f" stroke-width="3" opacity="0.6"/>
+      <path d="M950 610 L948 800" stroke="#4a311f" stroke-width="3" opacity="0.6"/>
+      <ellipse cx="932" cy="610" rx="52" ry="22" fill="#a07046" stroke="#3d2a1b" stroke-width="2"/>
+      <ellipse cx="932" cy="610" rx="36" ry="15" fill="none" stroke="#5c3d26" stroke-width="2"/>
+      <ellipse cx="932" cy="610" rx="20" ry="9" fill="none" stroke="#5c3d26" stroke-width="2"/>
+      <ellipse cx="932" cy="610" rx="7" ry="4" fill="none" stroke="#5c3d26" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g opacity="0.35" fill="#2f4d31">
+    <path d="M240 470 l12 0 l-12 -16 z"/>
+    <path d="M264 452 l8 0 l-8 -12 z"/>
+    <path d="M330 420 l14 0 l-14 -20 z"/>
+    <path d="M356 398 l10 0 l-10 -14 z"/>
+  </g>
+</svg>
