@@ -79,3 +79,57 @@ h1, h2, h3, h4, h5, h6 {
 .woods-row > * {
   scroll-snap-align: start;
 }
+
+.woods-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .woods-grid {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(180px, calc((100% - 3 * 1rem) / 4));
+    grid-template-rows: minmax(0, 1fr);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+  }
+
+  .woods-grid > * {
+    scroll-snap-align: start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .woods-grid {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(220px, calc((100% - 3 * 1rem) / 4));
+    grid-template-rows: minmax(0, 1fr);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+  }
+
+  .woods-grid > * {
+    scroll-snap-align: start;
+  }
+}
+
+@media (max-width: 639px) {
+  .woods-grid {
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(140px, 46%);
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+  }
+
+  .woods-grid > * {
+    scroll-snap-align: start;
+  }
+}

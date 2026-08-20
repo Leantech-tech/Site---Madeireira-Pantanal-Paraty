@@ -38,7 +38,7 @@ export default function RootLayout({
       className={`${dmSans.variable} ${inter.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full flex flex-col bg-stone-50 text-stone-900">
-        {children}
+        <div className="overflow-x-hidden">{children}</div>
       </body>
     </html>
   );

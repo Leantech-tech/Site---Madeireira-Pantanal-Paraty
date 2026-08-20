@@ -189,7 +189,7 @@ const ScrollExpandMedia = ({
   return (
     <div
       ref={sectionRef}
-      className='transition-colors duration-700 ease-in-out overflow-x-hidden'
+      className='relative transition-colors duration-700 ease-in-out overflow-x-hidden'
     >
       <section className='relative flex flex-col items-center justify-start min-h-[100dvh]'>
         <div className='relative w-full flex flex-col items-center min-h-[100dvh]'>
@@ -204,7 +204,7 @@ const ScrollExpandMedia = ({
               alt='Background'
               width={1920}
               height={1080}
-              className='w-screen h-screen'
+              className='w-full h-screen'
               style={{
                 objectFit: 'cover',
                 objectPosition: 'center',

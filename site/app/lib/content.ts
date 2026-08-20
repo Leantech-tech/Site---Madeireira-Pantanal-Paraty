@@ -85,6 +85,49 @@ export const woodTypes = [
   "Estrutura",
 ] as const;
 
+export const woodTones = [
+  {
+    name: "Pinus",
+    image: images.woodPinus,
+  },
+  {
+    name: "Eucalipto",
+    image: images.woodEucalipto,
+  },
+  {
+    name: "Cumaru",
+    image: images.woodCumaru,
+  },
+  {
+    name: "Ipê",
+    image: images.woodIpe,
+  },
+  {
+    name: "Massaranduba",
+    image: images.woodMassaranduba,
+  },
+  {
+    name: "Garapeira",
+    image: images.woodGarapeira,
+  },
+  {
+    name: "Cedro",
+    image: images.woodCedro,
+  },
+  {
+    name: "Angelim",
+    image: images.woodAngelim,
+  },
+  {
+    name: "Itaúba",
+    image: images.woodItauba,
+  },
+  {
+    name: "Peroba",
+    image: images.woodPeroba,
+  },
+] as const;
+
 export const woods = [
   {
     name: "Pinus",
