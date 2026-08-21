@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { DM_Sans, Inter } from "next/font/google";
+import { DM_Sans, Inter, Urbanist } from "next/font/google";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -12,6 +12,12 @@ const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
   weight: ["400", "500", "600"],
+});
+
+const urbanist = Urbanist({
+  variable: "--font-urbanist",
+  subsets: ["latin"],
+  weight: ["200", "300", "400"],
 });
 
 export const metadata: Metadata = {
@@ -35,7 +41,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${dmSans.variable} ${inter.variable} h-full antialiased scroll-smooth`}
+      className={`${dmSans.variable} ${inter.variable} ${urbanist.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full flex flex-col bg-stone-50 text-stone-900">
         <div className="overflow-x-hidden">{children}</div>

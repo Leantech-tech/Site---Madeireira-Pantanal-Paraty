@@ -1,5 +1,11 @@
 export const images = {
   heroMedia: "/hero-card.jpg",
+  heroWood1: "/wood-hero-1.png",
+  heroWood2: "/wood-hero-2.png",
+  heroWood3: "/wood-hero-3.png",
+  heroWood4: "/wood-hero-4.png",
+  heroWood5: "/wood-hero-5.png",
+  heroWood6: "/wood-hero-6.png",
   heroBackground:
     "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=1920&auto=format&fit=crop",
   about:
