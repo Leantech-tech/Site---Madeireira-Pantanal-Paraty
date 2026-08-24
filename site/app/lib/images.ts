@@ -6,6 +6,8 @@ export const images = {
   heroWood4: "/wood-hero-4.png",
   heroWood5: "/wood-hero-5.png",
   heroWood6: "/wood-hero-6.png",
+  replace1: "/imagem 1.jpg",
+  replace2: "/imagem 2.jpg",
   heroBackground:
     "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=1920&auto=format&fit=crop",
   about:
