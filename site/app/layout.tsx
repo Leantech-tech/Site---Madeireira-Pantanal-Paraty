@@ -24,6 +24,9 @@ export const metadata: Metadata = {
   title: "Madeireira Pantanal Paraty — Madeira e materiais para construção em Paraty",
   description:
     "Madeireira Pantanal Paraty: madeira de qualidade, materiais para construção e atendimento próximo em Paraty, Rio de Janeiro. Encontre a madeira certa para o seu projeto.",
+  icons: {
+    icon: "/favicon.jpg",
+  },
   openGraph: {
     title: "Madeireira Pantanal Paraty",
     description:
