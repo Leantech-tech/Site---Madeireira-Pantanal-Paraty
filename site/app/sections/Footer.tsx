@@ -24,7 +24,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full bg-wood-950 py-16 text-sand-100">
+    <footer className="w-full bg-forest-900 py-16 text-sand-100">
       <div className="container mx-auto px-6 lg:px-8">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
           <div>
@@ -55,7 +55,7 @@ export default function Footer() {
               href={site.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 text-sm text-sand-300 transition-colors hover:text-sand-50 focus:outline-none focus:ring-2 focus:ring-caramel-500 focus:ring-offset-2 focus:ring-offset-wood-950"
+              className="inline-flex items-center gap-3 text-sm text-sand-300 transition-colors hover:text-sand-50 focus:outline-none focus:ring-2 focus:ring-caramel-500 focus:ring-offset-2 focus:ring-offset-forest-900"
               aria-label="Instagram da Madeireira Pantanal Paraty"
             >
               <InstagramIcon className="h-5 w-5" />
@@ -64,7 +64,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 border-t border-wood-900 pt-8 text-center text-xs text-sand-500">
+        <div className="mt-16 border-t border-forest-800 pt-8 text-center text-xs text-sand-400">
           <p>
             © {currentYear} {site.name}. Todos os direitos reservados.
           </p>

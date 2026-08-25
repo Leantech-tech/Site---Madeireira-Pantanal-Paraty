@@ -32,6 +32,29 @@ export const images = {
     "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop",
   galleryTools:
     "https://images.unsplash.com/photo-1504148455328-c37693851809?q=80&w=800&auto=format&fit=crop",
+  projectFence:
+    "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?q=80&w=800&auto=format&fit=crop",
+  projectCard1: "/imagem 1 do card.png",
+  projectCard2: "/imgem 2 do card.png",
+  projectCard3: "/imagem 3 do card.png",
+  projectCard4: "/imagem 4 do card.png",
+  projectCard5: "/imagem 5 do card.png",
+  projectCard6: "/imagem 6 do card.png",
+  projectFurniture:
+    "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop",
+  projectOutdoor:
+    "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=800&auto=format&fit=crop",
+  projectRenovation:
+    "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=800&auto=format&fit=crop",
+  differentialQuality: "/imagem 1 do card 2.png",
+  differentialTreatment: "/imagem 2 do card 2.png",
+  differentialStock: "/imagem 3 do card 2.png",
+  differentialDelivery:
+    "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=800&auto=format&fit=crop",
+  differentialService:
+    "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=800&auto=format&fit=crop",
+  differentialSustainability:
+    "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=800&auto=format&fit=crop",
   cta:
     "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=1600&auto=format&fit=crop",
   woodPinus:

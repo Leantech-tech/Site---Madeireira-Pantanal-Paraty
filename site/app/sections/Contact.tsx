@@ -25,7 +25,7 @@ export default function Contact() {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.98 }}
-            className="inline-flex items-center justify-center gap-3 bg-wood-900 px-12 py-5 text-sm font-semibold uppercase tracking-[0.15em] text-sand-50 shadow-lg transition-colors hover:bg-caramel-600 focus:outline-none focus:ring-2 focus:ring-wood-900 focus:ring-offset-2 focus:ring-offset-sand-50"
+            className="inline-flex items-center justify-center gap-3 rounded-lg bg-forest-900 px-12 py-5 text-sm font-semibold uppercase tracking-[0.15em] text-sand-50 shadow-lg transition-colors hover:bg-forest-800 focus:outline-none focus:ring-2 focus:ring-forest-900 focus:ring-offset-2 focus:ring-offset-sand-50"
           >
             <MessageCircle className="h-5 w-5" strokeWidth={1.5} aria-hidden="true" />
             {contact.cta}

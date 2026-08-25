@@ -25,7 +25,7 @@ export default function Location() {
 
             <Card
               delay={0.1}
-              className="flex items-start gap-4 bg-wood-900 p-6 text-sand-100"
+              className="flex items-start gap-4 rounded-2xl bg-forest-900 p-6 text-sand-100"
             >
               <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-caramel-500/20 text-caramel-400">
                 <MapPin className="h-5 w-5" strokeWidth={1.5} aria-hidden="true" />

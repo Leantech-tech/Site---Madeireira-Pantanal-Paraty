@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
+import ProjectTypes from "./sections/ProjectTypes";
 import Products from "./sections/Products";
 import Woods from "./sections/Woods";
 import Differentials from "./sections/Differentials";
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
+      <ProjectTypes />
       <Products />
       <Woods />
       <Differentials />
