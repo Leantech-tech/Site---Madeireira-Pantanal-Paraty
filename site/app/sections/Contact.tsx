@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import Card from "../components/Card";
-import { contact, site } from "../lib/content";
+import { contact } from "../lib/content";
 
 export default function Contact() {
   return (
@@ -20,7 +20,7 @@ export default function Contact() {
           </p>
 
           <motion.a
-            href={site.instagram}
+            href={`https://wa.me/${contact.whatsapp}`}
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.03 }}
@@ -30,10 +30,6 @@ export default function Contact() {
             <MessageCircle className="h-5 w-5" strokeWidth={1.5} aria-hidden="true" />
             {contact.cta}
           </motion.a>
-
-          <p className="mt-8 text-xs text-wood-500">
-            O telefone/WhatsApp será adicionado em breve.
-          </p>
         </Card>
       </div>
     </section>

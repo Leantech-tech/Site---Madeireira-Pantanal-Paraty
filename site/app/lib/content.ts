@@ -201,5 +201,6 @@ export const contact = {
   title: "Vamos encontrar a madeira certa para o seu projeto?",
   subtitle:
     "Entre em contato com a Madeireira Pantanal Paraty e fale com nossa equipe.",
-  cta: "Falar com a madeireira",
+  cta: "Falar no WhatsApp",
+  whatsapp: "5524999794208",
 } as const;

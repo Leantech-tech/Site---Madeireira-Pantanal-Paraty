@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { TreePine, Menu, X } from 'lucide-react';
+import { contact } from '../lib/content';
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -58,7 +59,7 @@ export default function Header() {
         </nav>
 
         <a
-          href='https://wa.me/'
+          href={`https://wa.me/${contact.whatsapp}`}
           target='_blank'
           rel='noopener noreferrer'
           className='hidden md:inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-5 py-2.5 text-sm font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/20'
@@ -102,7 +103,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href='https://wa.me/'
+              href={`https://wa.me/${contact.whatsapp}`}
               target='_blank'
               rel='noopener noreferrer'
               className='mt-2 inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-white/20'

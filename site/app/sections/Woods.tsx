@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import SectionReveal from "../components/SectionReveal";
 import { images } from "../lib/images";
+import { contact } from "../lib/content";
 
 const features = [
   {
@@ -120,7 +121,7 @@ export default function Woods() {
 
               <div className="mb-4 mt-auto flex flex-col gap-4 sm:flex-row">
                 <a
-                  href="https://wa.me/"
+                  href={`https://wa.me/${contact.whatsapp}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-full bg-forest-800 px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-forest-800/20 transition-all duration-300 hover:bg-forest-900 hover:shadow-xl"
