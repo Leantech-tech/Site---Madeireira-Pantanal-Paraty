@@ -7,6 +7,7 @@ import Woods from "./sections/Woods";
 import Differentials from "./sections/Differentials";
 import Location from "./sections/Location";
 import Contact from "./sections/Contact";
+import Gallery from "./sections/Gallery";
 import Footer from "./sections/Footer";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Products />
       <Woods />
       <Differentials />
+      <Gallery />
       <Location />
       <Contact />
       <Footer />

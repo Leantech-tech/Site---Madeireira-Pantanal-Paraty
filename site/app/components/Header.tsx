@@ -19,7 +19,11 @@ export default function Header() {
   }, []);
 
   const navLinks = [
+    { href: '#sobre', label: 'Sobre' },
+    { href: '#projetos', label: 'Projetos' },
     { href: '#produtos', label: 'Produtos' },
+    { href: '#madeiras', label: 'Madeiras' },
+    { href: '#diferenciais', label: 'Diferenciais' },
     { href: '#galeria', label: 'Galeria' },
     { href: '#contato', label: 'Contato' },
   ];
