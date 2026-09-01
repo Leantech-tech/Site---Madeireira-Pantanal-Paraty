@@ -20,18 +20,12 @@ export const images = {
     "https://images.unsplash.com/photo-1591123720164-de1348028a82?q=80&w=800&auto=format&fit=crop",
   productsProjects:
     "https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=800&auto=format&fit=crop",
-  galleryStructure:
-    "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?q=80&w=800&auto=format&fit=crop",
-  galleryDeck:
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800&auto=format&fit=crop",
-  galleryInterior:
-    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=800&auto=format&fit=crop",
-  galleryExterior:
-    "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=800&auto=format&fit=crop",
-  galleryDetail:
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop",
-  galleryTools:
-    "https://images.unsplash.com/photo-1504148455328-c37693851809?q=80&w=800&auto=format&fit=crop",
+  galleryStructure: "/galeria 1.jpg",
+  galleryDeck: "/galeria 2.jpg",
+  galleryInterior: "/galeria 3.jpg",
+  galleryExterior: "/galeria 4.jpg",
+  galleryDetail: "/galeria 5.jpg",
+  galleryTools: "/galeria 6.jpg",
   projectFence:
     "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?q=80&w=800&auto=format&fit=crop",
   projectCard1: "/imagem 1 do card.png",
